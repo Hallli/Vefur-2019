@@ -1,0 +1,94 @@
+* { box-sizing: border-box }
+
+body {
+    margin: 0; /* tek út sjálgefið 10px margin */
+    /* font-family: ;*/
+    font: 400 1em/1.5 sans-serif; /* samsett skipun: weight/height, size, family */
+    background: linear-gradient(#494ca2, blue, rgb(58, 53, 53));
+}
+h1 {
+    font-weight: 300;
+    font-size: 2.5em
+}
+header{
+    line-height:50px;
+}
+header h1{
+    margin-left:16px;
+    color:white;
+    font-family: 'Staatliches', cursive;
+}
+main h1{
+    margin:0px;
+    font-family: 'Staatliches', cursive;
+}
+header a{
+    margin:16px;
+    font-family: 'Staatliches', cursive;
+}
+a:link{
+    text-decoration: none;
+    color:white;
+}
+a:visited{
+    color:pink;
+}
+a:hover{
+    background-color:lightblue;
+}
+li{
+    display:block;
+}
+section{
+    padding: 16px;
+}
+.topnav{
+    margin-left:243px;
+}
+
+.container {
+    max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right */
+    padding: 0;
+}
+/* grid */
+.col-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.gap-4 {
+    grid-gap: 4em
+}
+
+.litur{
+    background-image: linear-gradient(rgb(246,210,128), rgb(243,241,211));
+}
+
+.verkefni{
+    color:moccasin;
+    margin-left:364px;
+    font-family: 'Staatliches', cursive;
+}
+.hvitur{
+    color:White;
+}
+blockquote {
+  background-color: rgba(255,255,255,0.3);
+  padding:16px;
+  margin-left:-1px;
+  margin-right:-1px; 
+}
+.copy{
+    text-align:center;
+    color:white;
+}

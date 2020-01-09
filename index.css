@@ -1,0 +1,103 @@
+* { box-sizing: border-box }
+
+body {
+    margin: 0;
+    font: 400 1em/1.5 sans-serif;
+    background-image: linear-gradient(khaki,gold, khaki);
+    height:100vh;
+}
+header{
+
+}
+header h1{
+    text-align:center;
+    font-family: 'Yeon Sung', cursive;
+    font-size:4em;
+}
+header img{
+    position: absolute;
+    width:200px;
+    height:200px;
+}
+main{
+    display:inline;
+}
+footer{
+    background-image: linear-gradient(lightskyblue,lightblue,rgb(174, 208, 230));
+}
+a:link{
+    color:#ecf0f1;
+    text-decoration: none;
+}
+a:visited{
+    color:#34495e ;
+}
+a:hover{
+    background-color:yellow;
+}
+a:active{
+    color:greenyellow;
+}
+li {
+    list-style-type: none;
+    font-family: 'McLaren', cursive;
+    font-size: 20px;
+    margin-top:5px;
+}
+p{
+    margin:20px;
+}
+h4{
+    font-family: 'Orbitron', sans-serif;
+}
+h3{
+    font-family: 'Orbitron', sans-serif;
+}
+audio{
+    justify-content: center;
+}
+.ulli{
+    display:Flex;
+    justify-content: space-evenly;
+    border: solid 1px;
+}
+.rod{
+    display:inline;
+}
+.shit{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.midja{
+    text-align: center;
+}
+.skipting{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.hah{
+    background-image: linear-gradient(lightblue,lightskyblue,lightblue);
+}
+.eg{
+    width:140px;
+    height:180px;
+    right:50px;
+    position:absolute;
+    margin-top:80px;
+}
+.sjalf{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.kisa{
+    width:100%;
+    height:100%;
+}
+.mynd2{
+    display: flex;
+    justify-content:space-between;
+    margin-left:300px; 
+    width:300px; 
+}

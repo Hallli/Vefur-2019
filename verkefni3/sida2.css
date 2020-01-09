@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    
+}
+
+
+body, html{
+    background-color: rgb(255,230,170);
+    height: 100%;
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 20% 7.1% auto 11%;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "main article"
+        "footer footer"
+}
+
+.peru {
+    color:peru;
+    text-align:center;
+    margin:-15px;
+}
+
+blockquote {
+    border:solid 1px;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding:10px;
+}
+
+ul {
+    display:flex;    
+    flex-flow:row;
+    text-align: center;
+}
+.li2{
+    margin:13.3px;
+}
+
+li {
+    display: inline;
+    width: 100%;
+}
+a:link{
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    background-color:lightblue;
+}
+a:active{
+    background-color:lightcoral; 
+}
+a:visited{
+
+}
+header h1{
+    margin:32px;
+    text-align:center;
+    color:peru;
+    font-size:50px;
+}
+
+p {
+    margin:10px;
+    text-align: justify;    
+}
+h3 {margin:10px;
+}
+header {
+     grid-area: header;
+     background-image: linear-gradient(gold, yellow);
+}
+nav{grid-area:nav;
+    text-align:center;
+    justify-content: center;
+    background-image: linear-gradient(lightgreen, pink,lightgreen);
+}
+main{
+    grid-area:main;
+    background-color:rgb(255,238,204);
+}
+
+
+article{
+    grid-area: article; 
+   background-color:burlywood;
+}
+footer{grid-area:footer; 
+       text-align:center;
+       background-image: linear-gradient(lightgreen, pink);
+}
+
+
+
+
+
+

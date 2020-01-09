@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+}
+
+
+body, html{
+    margin:0 auto;
+    width: 180vh;
+    height: 130vh;
+    background-color:slategray;
+
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 54% 23% 23%;
+    grid-template-rows: 5.4% 28% auto 8%;
+    grid-template-areas:
+        "nav nav nav"
+        "header header header"
+        "main aside article"
+        "footer footer footer"
+}
+ul {
+    display:flex;    
+    flex-flow:row;
+    text-align: center;
+}
+a:link{
+    text-decoration:none;
+    color:white;
+}
+a:visited{
+    color:white;
+}
+.litur{
+    color:yellow;
+}
+.bold{
+    font:bolder;
+}
+.li2{
+    margin:13.3px;
+}
+li {
+    display: inline;
+    width: 100%;
+}
+
+header h1{
+    color:lightgray;
+    font-size:60px;
+    font-family: 'Anton', sans-serif;
+    margin-left:1em;
+}
+.haegri{
+
+    margin-top:-30px;
+    text-align:right;
+}
+p {
+    margin:10px;
+}
+h3 {
+    margin:10px;
+}
+header {
+     grid-area: header;
+     background-color:rgb(26, 24, 24);
+}
+nav{grid-area:nav;
+    text-align:center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(40, 75, 100), rgb(70, 130, 180), rgb(40, 75, 100));
+}
+main{grid-area:main;
+     background-color:lightgray;
+}
+aside{
+    grid-area: aside;
+    background-color:darkslategray;
+    color:white;
+}
+
+article{
+    grid-area: article;
+    background-color:darkslategray;
+    color:White;
+}
+footer{
+    grid-area:footer; 
+    background-image: linear-gradient(rgb(70, 130, 180), rgb(40, 75, 100)); 
+    text-align:center;
+}
